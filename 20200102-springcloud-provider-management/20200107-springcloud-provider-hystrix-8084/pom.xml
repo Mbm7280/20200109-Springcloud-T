@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>20200102-springcloud-provider-management</artifactId>
+        <groupId>com.aaa.lee.springcloud</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>20200107-springcloud-provider-hystrix-8084</artifactId>
+
+    <dependencies>
+        <!--
+            和hystrix配套使用的是dashboard(仪表盘的意思)，logo是一只豪猪
+            不要再研究了，在dashboard官网上明确指出被废弃(2.0之后根本就不再支持了，1.0目前还支持)
+        -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
+    </dependencies>
+
+
+</project>
